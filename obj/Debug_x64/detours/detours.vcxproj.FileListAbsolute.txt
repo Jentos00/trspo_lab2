@@ -1,0 +1,1 @@
+C:\Users\79211\Desktop\LAB2OOP\obj\Debug_x64\detours\detours.lib

@@ -1,0 +1,13 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(504,5): warning MSB8004: каталог Intermediate заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Intermediate.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
+  Assembling hook_x64.asm...
+  dllmain.cpp
+C:\Users\79211\Desktop\LAB2OOP\Hook\dllmain.cpp(6,33): warning C4081: требуется "newline"; обнаружен ";"
+C:\Users\79211\Desktop\LAB2OOP\Hook\dllmain.cpp(30,39): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79211\Desktop\LAB2OOP\Hook\dllmain.cpp(112,56): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79211\Desktop\LAB2OOP\Hook\dllmain.cpp(162,40): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  pch.cpp
+  Создание кода...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1369,5): warning MSB8012: TargetPath(C:\Users\79211\Desktop\LAB2OOP\obj\Debug_x64\Hook\Hook.dll) не соответствует значению свойства выходного файла (C:\Users\79211\Desktop\LAB2OOP\app\Hook.dll) для Linker. Это может привести к неправильной сборке проекта. Чтобы исправить это, убедитесь, что значения свойств $(OutDir), $(TargetName) и $(TargetExt) соответствуют значению, указанному в %(Link.OutputFile).
+dllmain.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  Hook.vcxproj -> C:\Users\79211\Desktop\LAB2OOP\obj\Debug_x64\Hook\Hook.dll
